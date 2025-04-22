@@ -12,12 +12,12 @@ function enterClicked() {
   // process
   if (inputNumber == randomNumber) {
     document.getElementById('answer').innerHTML =
-    '<p>You have guessed the correct number!</p>'
+    'You have guessed the correct number!'
   }
 
   if (inputNumber !== randomNumber) {
     document.getElementById("answer").innerHTML =
-    '<p>You have guessed the wrong number!' +
-    '<br/>The correct number was: ' + randomNumber + '</p>'
+    'You have guessed the wrong number!' +
+    '<br/>The correct number was: ' + randomNumber
   }
 }
